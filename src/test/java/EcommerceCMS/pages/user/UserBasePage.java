@@ -16,6 +16,8 @@ public class UserBasePage extends BaseTest {
     private static By headerPopup = By.xpath("//b[normalize-space()='Website Demo']");
     private static By buttonClosePopup = By.xpath("//b[normalize-space()='Website Demo']/following::button[@data-value='removed']");
     private static By buttonLoginHomePage = By.xpath("//a[.='Login']");
+    private static By buttonMyPanel = By.xpath("//a[normalize-space()='My Panel']");
+    private static By menuManageProfile = By.xpath("(//div[@class='sidemnenu mb-3']/descendant::ul/li/a/span[.='Manage Profile'])[1]");
 
     @Step("Click button login homepage")
     public static void clickButtonLoginHomePage(){
@@ -36,4 +38,20 @@ public class UserBasePage extends BaseTest {
         WebUI.setTextAndKey(searchProduct, product, Keys.ENTER);
 
     }
+
+    @Step("Click button my panel")
+    public static void clickButtonMyPanel(){
+        WebUI.clickElement(buttonMyPanel);
+        WebUI.waitForPageLoaded();
+    }
+
+    @Step("Click menu manage profile")
+    public  UserManageProfilePage clickMenuManageProfile(){
+        WebUI.clickElement(menuManageProfile);
+        WebUI.waitForPageLoaded();
+
+        return new UserManageProfilePage();
+    }
+
+
 }

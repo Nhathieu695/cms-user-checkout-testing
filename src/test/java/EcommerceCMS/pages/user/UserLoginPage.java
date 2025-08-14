@@ -49,6 +49,8 @@ public class UserLoginPage {
 
     public UserDashBoardPage loginCMS() {
         WebUI.openURL(PropertiesHelper.getValue("URL"));
+        UserBasePage.clickButtonClosePopup();
+        UserBasePage.clickButtonLoginHomePage();
         WebUI.setText(inputEmail, PropertiesHelper.getValue("EMAIL"));
         WebUI.setText(inputPassword, PropertiesHelper.getValue("PASSWORD"));
         WebUI.clickElement(buttonLogin);

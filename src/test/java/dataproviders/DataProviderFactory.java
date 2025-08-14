@@ -52,9 +52,17 @@ public class DataProviderFactory {
         @DataProvider(name = "data_add_new_product_form_excel")
         public Object[][] dataAddNewProduct() {
             ExcelHelper excelHelper = new ExcelHelper();
-            Object[][] data = excelHelper.getExcelDataProvider(SystemHelper.getCurrentDir() + PropertiesHelper.getValue("SetProduct"), "ProductData");
+            Object[][] data = excelHelper.getExcelDataProvider(SystemHelper.getCurrentDir() + PropertiesHelper.getValue("EXCEL_SetProduct"), "ProductData");
 
             LogUtils.info("✅ Read data from Excel: " + Arrays.deepToString(data));
             return data;
         }
+
+    @DataProvider(name = "data_provider_add_new_address_excel_hashtable")
+    public Object[][] dataLoginHRMFromExcelHashtable() {
+        ExcelHelper excelHelper = new ExcelHelper();
+        Object[][] data = excelHelper.getExcelDataHashTable(SystemHelper.getCurrentDir() + PropertiesHelper.getValue("EXCEL_AddressProfile"), "Address", 1, 1);
+        LogUtils.info("Add new address with data: " + data);
+        return data;
+    }
 }
