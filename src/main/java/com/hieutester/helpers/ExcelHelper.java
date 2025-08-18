@@ -4,7 +4,7 @@ import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-import java.awt.*;
+
 import java.awt.Color;
 import java.io.File;
 import java.io.FileInputStream;
@@ -13,6 +13,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
+import java.util.List;
 
 public class ExcelHelper {
 
@@ -277,4 +278,60 @@ public class ExcelHelper {
 
         return data;
     }
+
+    // ghi thông tin vào file excel
+    public static void appendDataToExcel(List<String> data, String filePath, List<String> headers) {
+        try {
+            File file = new File(filePath);
+            Workbook workbook;
+            Sheet sheet;
+            FileOutputStream fos;
+
+            if (file.exists()) {
+                FileInputStream fis = new FileInputStream(file);
+                workbook = new XSSFWorkbook(fis);
+                sheet = workbook.getSheetAt(0);
+                fis.close();
+            } else {
+                workbook = new XSSFWorkbook();
+                sheet = workbook.createSheet("Sheet1");
+
+                // Tạo header
+                Row headerRow = sheet.createRow(0);
+                CellStyle headerStyle = workbook.createCellStyle();
+                Font font = workbook.createFont();
+                font.setBold(true);
+                headerStyle.setFont(font);
+                headerStyle.setAlignment(HorizontalAlignment.CENTER);
+
+                for (int i = 0; i < headers.size(); i++) {
+                    Cell cell = headerRow.createCell(i);
+                    cell.setCellValue(headers.get(i));
+                    cell.setCellStyle(headerStyle);
+                }
+            }
+
+            int lastRowNum = sheet.getLastRowNum();
+            Row row = sheet.createRow(lastRowNum + 1);
+
+            for (int i = 0; i < data.size(); i++) {
+                Cell cell = row.createCell(i);
+                cell.setCellValue(data.get(i));
+            }
+
+            // Auto-size cột
+            for (int i = 0; i < headers.size(); i++) {
+                sheet.autoSizeColumn(i);
+            }
+
+            fos = new FileOutputStream(filePath);
+            workbook.write(fos);
+            fos.close();
+            workbook.close();
+
+        } catch (IOException e) {
+            throw new RuntimeException("Error while appending data to Excel", e);
+        }
+    }
+
 }

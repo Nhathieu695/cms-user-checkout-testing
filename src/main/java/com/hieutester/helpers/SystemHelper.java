@@ -38,4 +38,11 @@ public class SystemHelper {
         String current = System.getProperty("user.dir") + File.separator;
         return current;
     }
+    public static double parsePrice(String priceText) {
+        try {
+            return Double.parseDouble(priceText.replaceAll("[^0-9.]", ""));
+        } catch (Exception e) {
+            return -1;
+        }
+    }
 }

@@ -1,0 +1,511 @@
+[INFO] 18-08-2025 22:46:16 [main] LogUtils - ⚙️ Setup môi trường onStart: Mon Aug 18 22:46:16 GMT+07:00 2025
+[INFO] 18-08-2025 22:46:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 18-08-2025 22:46:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 18-08-2025 22:46:24 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 18-08-2025 22:46:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 18-08-2025 22:46:26 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 18-08-2025 22:46:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 18-08-2025 22:46:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-08-2025 22:46:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 18-08-2025 22:46:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 18-08-2025 22:46:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:46:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:46:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 18-08-2025 22:46:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:46:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [searchkeywordlaptopgaming]
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[ERROR] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 18-08-2025 22:46:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.AssertionError: verifyProductInfoFromUrl: Failed - No match found with at least 2 words expected [true] but found [false]
+[INFO] 18-08-2025 22:46:35 [main] LogUtils - Kết thúc bộ test: Mon Aug 18 22:46:35 GMT+07:00 2025
+[INFO] 18-08-2025 22:46:35 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 18-08-2025 22:46:35 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 18-08-2025 22:46:35 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 18-08-2025 22:46:35 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 18-08-2025 22:51:03 [main] LogUtils - ⚙️ Setup môi trường onStart: Mon Aug 18 22:51:03 GMT+07:00 2025
+[INFO] 18-08-2025 22:51:05 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 18-08-2025 22:51:05 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 18-08-2025 22:51:08 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 18-08-2025 22:51:08 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 18-08-2025 22:51:09 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 18-08-2025 22:51:10 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 18-08-2025 22:51:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-08-2025 22:51:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 18-08-2025 22:51:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 18-08-2025 22:51:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:51:13 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:51:13 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 18-08-2025 22:51:13 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:51:16 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 18-08-2025 22:51:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 18-08-2025 22:51:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[ERROR] 18-08-2025 22:51:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 18-08-2025 22:51:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.NullPointerException: Cannot invoke "EcommerceCMS.pages.user.UserProductDetailPage.verifyInfoProductDetail(String)" because "this.userProductDetailPage" is null
+[INFO] 18-08-2025 22:51:20 [main] LogUtils - Kết thúc bộ test: Mon Aug 18 22:51:20 GMT+07:00 2025
+[INFO] 18-08-2025 22:51:20 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 18-08-2025 22:51:20 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 18-08-2025 22:51:20 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 18-08-2025 22:51:20 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 18-08-2025 22:55:01 [main] LogUtils - ⚙️ Setup môi trường onStart: Mon Aug 18 22:55:00 GMT+07:00 2025
+[INFO] 18-08-2025 22:55:02 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 18-08-2025 22:55:02 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 18-08-2025 22:55:06 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 18-08-2025 22:55:07 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 18-08-2025 22:55:08 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 18-08-2025 22:55:08 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 18-08-2025 22:55:09 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 18-08-2025 22:55:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 18-08-2025 22:55:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 18-08-2025 22:55:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:55:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 18-08-2025 22:55:11 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 18-08-2025 22:55:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:55:14 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 18-08-2025 22:55:15 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 18-08-2025 22:55:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 18-08-2025 22:55:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 18-08-2025 22:55:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 18-08-2025 22:55:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 18-08-2025 22:55:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 18-08-2025 22:55:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 18-08-2025 22:55:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 18-08-2025 22:55:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 18-08-2025 22:55:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 18-08-2025 22:55:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 18-08-2025 22:55:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 18-08-2025 22:55:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ Test case testGetInfoProductToExcel is passed.
+[INFO] 18-08-2025 22:55:26 [main] LogUtils - Kết thúc bộ test: Mon Aug 18 22:55:26 GMT+07:00 2025
+[INFO] 18-08-2025 22:55:26 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 18-08-2025 22:55:26 [main] LogUtils - ⭐️ Test Passed Total: 1
+[INFO] 18-08-2025 22:55:26 [main] LogUtils - ⭐️ Test Failed Total: 0
+[INFO] 18-08-2025 22:55:26 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:06:15 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:06:15 GMT+07:00 2025
+[INFO] 19-08-2025 00:06:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:06:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:06:23 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:06:24 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:06:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:06:26 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:06:26 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:06:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:06:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:06:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:06:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:06:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:06:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:06:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:06:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:06:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:06:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:06:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:06:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:06:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:06:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:06:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:06:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:06:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:06:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:06:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:06:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:06:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:06:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:06:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:06:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:06:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:06:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:06:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:06:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[ERROR] 19-08-2025 00:06:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 19-08-2025 00:06:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.RuntimeException: Error while getting product info
+[INFO] 19-08-2025 00:06:44 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:06:44 GMT+07:00 2025
+[INFO] 19-08-2025 00:06:44 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:06:44 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 19-08-2025 00:06:44 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 19-08-2025 00:06:44 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:09:23 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:09:22 GMT+07:00 2025
+[INFO] 19-08-2025 00:09:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:09:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:09:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:09:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:09:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:09:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:09:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:09:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:09:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:09:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:09:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:09:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:09:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:09:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:09:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:09:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:09:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:09:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:09:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:09:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:09:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:09:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:09:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:09:41 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:09:41 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:09:41 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:09:41 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:09:41 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:09:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:09:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:09:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:09:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:09:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:09:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:09:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:09:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 19-08-2025 00:09:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:09:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:09:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: Laptop Gaming 🟰 
+[ERROR] 19-08-2025 00:09:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 19-08-2025 00:09:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.AssertionError: The product name not match expected [] but found [Laptop Gaming]
+[INFO] 19-08-2025 00:09:46 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:09:46 GMT+07:00 2025
+[INFO] 19-08-2025 00:09:46 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:09:46 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 19-08-2025 00:09:46 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 19-08-2025 00:09:46 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:10:33 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:10:32 GMT+07:00 2025
+[INFO] 19-08-2025 00:10:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:10:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:10:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:10:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:10:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:10:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:10:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:10:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:10:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:10:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:10:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:10:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:10:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:10:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:10:46 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:10:47 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:10:47 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:10:48 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:10:48 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:10:49 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:10:50 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:10:50 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:10:50 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:10:50 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:10:51 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:10:51 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:10:51 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:10:51 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:10:51 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:10:52 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:10:53 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:10:53 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: Laptop Gaming 🟰 Laptop Gaming
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: $1,000.00 /pc 🟰 $1,000.00
+[ERROR] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 19-08-2025 00:10:56 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.AssertionError: Price original not match expected [$1,000.00] but found [$1,000.00 /pc]
+[INFO] 19-08-2025 00:10:57 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:10:57 GMT+07:00 2025
+[INFO] 19-08-2025 00:10:57 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:10:57 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 19-08-2025 00:10:57 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 19-08-2025 00:10:57 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:15:11 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:15:10 GMT+07:00 2025
+[INFO] 19-08-2025 00:15:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:15:12 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:15:16 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:15:17 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:15:18 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:15:19 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:15:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:15:22 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:15:22 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:15:22 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:15:23 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:15:23 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:15:24 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:15:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:15:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:15:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:15:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:15:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:15:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:15:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:15:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:15:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:15:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:15:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:15:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:15:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:15:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:15:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:15:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[ERROR] 19-08-2025 00:15:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 19-08-2025 00:15:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.RuntimeException: Error while getting product info
+[INFO] 19-08-2025 00:15:36 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:15:36 GMT+07:00 2025
+[INFO] 19-08-2025 00:15:36 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:15:36 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 19-08-2025 00:15:36 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 19-08-2025 00:15:36 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:16:19 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:16:18 GMT+07:00 2025
+[INFO] 19-08-2025 00:16:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:16:21 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:16:23 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:16:24 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:16:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:16:26 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:16:27 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:16:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:16:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:16:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:16:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:16:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:16:30 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:16:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:16:33 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:16:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:16:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:16:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:16:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:16:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:16:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:16:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:16:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:16:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:16:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:16:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:16:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:16:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:16:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:16:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:16:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:16:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:16:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:16:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:16:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:16:40 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 19-08-2025 00:16:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:16:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:16:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: Laptop Gaming 🟰 Laptop Gaming
+[INFO] 19-08-2025 00:16:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:16:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:16:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:16:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:16:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: $1,000.00  🟰 $1,000.00
+[ERROR] 19-08-2025 00:16:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ❌ Test case testGetInfoProductToExcel is failed.
+[ERROR] 19-08-2025 00:16:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - java.lang.AssertionError: Price original not match expected [$1,000.00] but found [$1,000.00 ]
+[INFO] 19-08-2025 00:16:45 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:16:45 GMT+07:00 2025
+[INFO] 19-08-2025 00:16:45 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:16:45 [main] LogUtils - ⭐️ Test Passed Total: 0
+[INFO] 19-08-2025 00:16:45 [main] LogUtils - ⭐️ Test Failed Total: 1
+[INFO] 19-08-2025 00:16:45 [main] LogUtils - ⭐️ Test Skipped Total: 0
+[INFO] 19-08-2025 00:20:18 [main] LogUtils - ⚙️ Setup môi trường onStart: Tue Aug 19 00:20:17 GMT+07:00 2025
+[INFO] 19-08-2025 00:20:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Run with Edge browser
+[INFO] 19-08-2025 00:20:20 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Bắt đầu chạy test case: testGetInfoProductToExcel
+[INFO] 19-08-2025 00:20:23 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Open URL:  https://cms.anhtester.com/
+[INFO] 19-08-2025 00:20:24 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //b[normalize-space()='Website Demo']/following::button[@data-value='removed']
+[INFO] 19-08-2025 00:20:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //a[.='Login']
+[INFO] 19-08-2025 00:20:25 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text customer@example.com on element By.xpath: //input[@id='email']
+[INFO] 19-08-2025 00:20:26 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text 123456 on element By.xpath: //input[@id='password']
+[INFO] 19-08-2025 00:20:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: //button[normalize-space()='Login']
+[INFO] 19-08-2025 00:20:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert NOT contains: https://cms.anhtester.com/dashboard ↔️ login
+[INFO] 19-08-2025 00:20:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:20:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //h1[normalize-space()='Dashboard']
+[INFO] 19-08-2025 00:20:28 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Dashboard
+[INFO] 19-08-2025 00:20:29 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Clear text on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:20:31 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Set text: Laptop gaming on element By.xpath: //input[@id='search']
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']//h1
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Search result for"Laptop gaming"
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Matched with search title: search result forlaptop gaming
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - URL: https://cms.anhtester.com/search?keyword=Laptop+gaming
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Slug words: [laptop, gaming]
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Result title: search result forlaptop gaming
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Product list: [laptop gaming, laptop dell, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus, laptop asus]
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:20:32 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:20:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Click on element By.xpath: (//div[@class='p-md-3 p-2 text-left']/child::h3/a)[1]
+[INFO] 19-08-2025 00:20:34 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🚀 Start verifyProductDetailPage
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Current URL   : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Expected URL  : https://cms.anhtester.com/product/laptop-gaming
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Page title    : Laptop Gaming
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - 🔍 Product name  : Laptop Gaming
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ verifyProductDetailPage PASSED!
+[INFO] 19-08-2025 00:20:35 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:20:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:20:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:20:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:20:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:20:36 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:20:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:20:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:20:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - checkElementExist: true --- By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:20:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:20:37 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:20:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:20:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:20:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:20:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:20:38 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:20:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:20:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:20:39 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 19-08-2025 00:20:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='text-left']/h1
+[INFO] 19-08-2025 00:20:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Laptop Gaming
+[INFO] 19-08-2025 00:20:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: Laptop Gaming 🟰 Laptop Gaming
+[INFO] 19-08-2025 00:20:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del
+[INFO] 19-08-2025 00:20:42 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $1,000.00 /pc
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: $1,000.00 🟰 $1,000.00
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//del/span
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: /pc
+[INFO] 19-08-2025 00:20:43 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: /pc 🟰 /pc
+[INFO] 19-08-2025 00:20:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='col-sm-10']//strong
+[INFO] 19-08-2025 00:20:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: $900.00
+[INFO] 19-08-2025 00:20:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: $900.00 🟰 $900.00
+[INFO] 19-08-2025 00:20:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: 2 🟰 2
+[INFO] 19-08-2025 00:20:44 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ Colors verified. Expect: [crimson, red] | Actual: [crimson, red]
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //span[@id='available-quantity']
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: 10
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: 10 🟰 10
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get text of element By.xpath: //div[@class='mw-100 overflow-auto text-left aiz-editor-data']
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> TEXT: Đồ công nghệ cao
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: Đồ công nghệ cao 🟰 Đồ công nghệ cao
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Get attribute of element By.xpath: (//div[@data-fade='true']/descendant::img)[1]
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ==> Attribute value: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - Assert equals: https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png 🟰 https://cms.anhtester.com/public/uploads/all/krVAUGG4HQdU3RDel4dlgNfBTl4YvN7nB6GsSLxv.png
+[INFO] 19-08-2025 00:20:45 [TestNG-test=Get Info Product Data to Excel-1] LogUtils - ✅ Test case testGetInfoProductToExcel is passed.
+[INFO] 19-08-2025 00:20:46 [main] LogUtils - Kết thúc bộ test: Tue Aug 19 00:20:46 GMT+07:00 2025
+[INFO] 19-08-2025 00:20:46 [main] LogUtils - ⭐️ Test Total: 1
+[INFO] 19-08-2025 00:20:46 [main] LogUtils - ⭐️ Test Passed Total: 1
+[INFO] 19-08-2025 00:20:46 [main] LogUtils - ⭐️ Test Failed Total: 0
+[INFO] 19-08-2025 00:20:46 [main] LogUtils - ⭐️ Test Skipped Total: 0
